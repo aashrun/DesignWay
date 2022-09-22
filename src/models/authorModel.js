@@ -11,7 +11,6 @@ const authorSchema = new mongoose.Schema({
     },
     toDoList : {
         type : Array,
-        required : true,
         default : []
     }
 
