@@ -1,12 +1,12 @@
 # DesignWay
 
-##1) Create a node express project with four routes to:
+## 1) Create a node express project with four routes to:
 - POST 
 - GET
 - PUT
 - DELETE
 
-##2) Now create a .json file in a project directory, using below format, which should be created by node app when it starts for first time if the file doesn’t exist.
+## 2) Now create a .json file in a project directory, using below format, which should be created by node app when it starts for first time if the file doesn’t exist.
 
 {
 “author”: <your name>, <— this should be added when the file is created for the first time
@@ -16,7 +16,7 @@
 }
 
 
-##3) Now using all above 4 routes to write below content inside the .json file you created just now.
+## 3) Now using all above 4 routes to write below content inside the .json file you created just now.
 
 a) Using one of the 4 routes you should add 5 todo items to the above json file to_do_list array with a success response on you API.
 b) Using  one of the 4 routes you retrieve all todo items from the above json with status 201.
