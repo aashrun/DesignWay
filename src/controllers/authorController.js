@@ -123,7 +123,6 @@ const updateTask = async function(req, res){
         if(!validation.emptyBody(body)) return res.status(400).send({status: false, message: "Body cannot be empty!"})
 
         if(!validation.isValid(updateTask)) return res.status(400).send({status: false, message: "The input string cannot be empty!"})
-        body.updateTask = body.updateTask.trim().split(" ").filter(x => x).join(" ")
 
         let task = validId.toDoList
         if(task.length < 3){
