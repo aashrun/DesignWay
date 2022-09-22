@@ -18,8 +18,8 @@
 
 ## 3) Now using all above 4 routes to write below content inside the .json file you created just now.
 
-a) Using one of the 4 routes you should add 5 todo items to the above json file to_do_list array with a success response on you API.
-b) Using  one of the 4 routes you retrieve all todo items from the above json with status 201.
-c) Using  one of the 4 routes you should remove 3rd position todo items in the above json with status 204.
-d) Using  one of the 4 routes you should update 2nd position todo items name with “new text” in the above json with status 204.
-e) Now make a copy of json file as “_yourjsonfilename.json” at the same location and add a name/value pair “updatedAt”:<time this copy file was created>. 
+### a) Using one of the 4 routes you should add 5 todo items to the above json file to_do_list array with a success response on you API.
+### b) Using  one of the 4 routes you retrieve all todo items from the above json with status 201.
+### c) Using  one of the 4 routes you should remove 3rd position todo items in the above json with status 204.
+### d) Using  one of the 4 routes you should update 2nd position todo items name with “new text” in the above json with status 204.
+### e) Now make a copy of json file as “_yourjsonfilename.json” at the same location and add a name/value pair “updatedAt”:<time this copy file was created>. 
