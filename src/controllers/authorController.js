@@ -89,7 +89,7 @@ const deleteTask = async function(req, res){
 
        await authorModel.findOneAndUpdate({_id: authorId}, {toDoList: task})
 
-      res.status(204).send({status: true, message: `Removed the 2nd task successfully from ${validId.name}'s To-Do-List!`, data: validId})
+      res.status(204).send({status: true, message: `Removed the 3rd task successfully from ${validId.name}'s To-Do-List!`, data: validId})
 
       
     }catch(error){
