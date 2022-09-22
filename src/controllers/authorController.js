@@ -132,7 +132,7 @@ const updateTask = async function(req, res){
 
         let result = task.splice(1,1,updateTask)
 
-        await authorModel.findOneAndUpdate({_id: authorId}, {toDoList: task, updatedAt: Date.now()}, {upsert: true})
+        await authorModel.findOneAndUpdate({_id: authorId}, {toDoList: task, updatedAt: Date.now()})
 
         res.status(204).send({status:true, message: "Task updated successfully!", data: validId.toDoList})
 
