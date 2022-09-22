@@ -125,7 +125,7 @@ const updateTask = async function(req, res){
         if(!validation.isValid(updateTask)) return res.status(400).send({status: false, message: "The input string cannot be empty!"})
 
         let task = validId.toDoList
-        if(task.length < 3){
+        if(task.length < 2){
             return res.status(400).send({status: false, message: "The To-Do-List contains less than 2 items and hence, updating the 2nd task will not be possible."})
     
           }
